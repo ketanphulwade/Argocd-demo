@@ -4,6 +4,7 @@ metadata:
   name: nginx-pod
   labels:
     app: nginx
+    owner: ketan
 spec:
   containers:
   - name: nginx
